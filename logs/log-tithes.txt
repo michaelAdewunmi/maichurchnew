@@ -1,0 +1,811 @@
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000612
+Amount Paid: 100000
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 09:48:39: AM
+
+================================================================================================================================
+================================================================================================================================
+
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000612
+Transaction ID: TRN4745971
+Amount: 100000.00
+Paid on: 2019-07-13 09:48:39
+Reversed on: Sat, Jul, 13, 2019 09:49:53: AM
+
+================================================================================================================================
+================================================================================================================================
+
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000613
+Amount Paid: 30000
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 09:54:33: AM
+
+================================================================================================================================
+================================================================================================================================
+
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000613
+Transaction ID: TRN3149991
+Description: Tithe for April 2019, May 2019
+Amount: 30000.00
+Paid on: 2019-07-13 09:54:33
+Reversed on: Sat, Jul, 13, 2019 09:55:06: AM
+
+================================================================================================================================
+================================================================================================================================
+
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000616
+Amount Paid: 287500
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 10:41:20: AM
+
+================================================================================================================================
+================================================================================================================================
+
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: ALEXANDER MICHAEL
+Invoice Number: 0000616
+Transaction ID: TRN5285171
+Description: Tithe for May 2019, June 2019, July 2019
+Amount: 287500.00
+Paid on: 2019-07-13 10:41:20
+Reversed on: Sat, Jul, 13, 2019 10:42:13: AM
+
+================================================================================================================================
+================================================================================================================================
+
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000618
+Amount Paid: 167500
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 10:46:44: AM
+
+================================================================================================================================
+================================================================================================================================
+
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: ALEXANDER MICHAEL
+Invoice Number: 0000618
+Transaction ID: TRN8213666
+Description: Tithe for June 2019, July 2019
+Amount: 167500.00
+Paid on: 2019-07-13 10:46:44
+Reversed on: Sat, Jul, 13, 2019 10:47:55: AM
+
+==========================================================================================================
+==========================================================================================================
+
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+OLD DETAILS
+*****************
+Old Tithe Payer Name: ALEXANDER MICHAEL
+Old Invoice Number: 0000618
+Old Transaction ID: TRN8213666
+Old Description: Tithe for June 2019, July 2019
+Old Amount: 167500.00
+Paid on: 2019-07-13 10:46:44
+*****************
+NEW DETAILS
+*****************
+New Tithe Payer Name: ALEXANDER MICHAEL
+New Invoice Number: 0000619
+New Transaction ID: TRN5911558
+New Description: Tithe for June 2019
+New Amount: 167500.
+================================================================================================================================
+================================================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000620
+Amount Paid: 122500
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 11:04:35: AM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: ALEXANDER MICHAEL
+Invoice Number: 0000620
+Transaction ID: TRN7750492
+Description: Tithe for June 2019, July 2019
+Amount: 122500.00
+Paid on: 2019-07-13 11:04:35
+Reversed on: Sat, Jul, 13, 2019 11:06:21: AM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by supercashr, Shogade Adewale(thesupercashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: ALEXANDER MICHAEL
+ Old Invoice Number: 0000620
+ Old Transaction ID: TRN7750492
+ Old Description: Tithe for June 2019, July 2019
+ Old Amount: 122500.00
+ Paid on: 2019-07-13 11:04:35
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000621
+ New Transaction ID: TRN3241985
+ New Description: Tithe for June 2019, July 2019
+ New Amount: 127500.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000621
+Amount Paid: 127000
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 11:17:58: AM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: ALEXANDER MICHAEL
+Invoice Number: 0000621
+Transaction ID: TRN3241985
+Description: Tithe for June 2019, July 2019
+Amount: 127500.00
+Paid on: 2019-07-13 12:06:56
+Reversed on: Sat, Jul, 13, 2019 11:19:01: AM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: ALEXANDER MICHAEL
+ Old Invoice Number: 0000621
+ Old Transaction ID: TRN3241985
+ Old Description: Tithe for June 2019, July 2019
+ Old Amount: 127500.00
+ Paid on: 2019-07-13 12:06:56
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000622
+ New Transaction ID: TRN6250069
+ New Description: Tithe for June 2019, July 2019
+ New Amount: 122500.00
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: ALEXANDER MICHAEL
+ Old Invoice Number: 0000621
+ Old Transaction ID: TRN3241985
+ Old Description: Tithe for June 2019, July 2019
+ Old Amount: 127500.00
+ Paid on: 2019-07-13 12:06:56
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000623
+ New Transaction ID: TRN6250069
+ New Description: Tithe for June 2019, July 2019
+ New Amount: 122500.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000624
+Amount Paid: 220500
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 11:22:55: AM
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000625
+Amount Paid: 235000
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 03:53:27: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: ALEXANDER MICHAEL
+Invoice Number: 0000625
+Transaction ID: TRN6818321
+Description: Tithe for June 2019
+Amount: 235000.00
+Paid on: 2019-07-13 15:53:27
+Reversed on: Sat, Jul, 13, 2019 03:54:34: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: 
+ Old Invoice Number: 
+ Old Transaction ID: 
+ Old Description: 
+ Old Amount: 0
+ Paid on: 
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: 
+ New Invoice Number: 
+ New Transaction ID: 
+ New Description: 
+ New Amount: 
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000628
+Amount Paid: 117500
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 04:01:00: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: ALEXANDER MICHAEL
+Invoice Number: 0000628
+Transaction ID: TRN9634462
+Description: Tithe for May 2019, June 2019
+Amount: 117500.00
+Paid on: 2019-07-13 16:01:00
+Reversed on: Sat, Jul, 13, 2019 04:01:56: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: 
+ Old Invoice Number: 
+ Old Transaction ID: 
+ Old Description: 
+ Old Amount: 0
+ Paid on: 
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: 
+ New Invoice Number: 
+ New Transaction ID: 
+ New Description: 
+ New Amount: 
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000630
+Amount Paid: 132500
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 04:09:34: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: ALEXANDER MICHAEL
+Invoice Number: 0000630
+Transaction ID: TRN9647358
+Description: Tithe for May 2019, June 2019
+Amount: 132500.00
+Paid on: 2019-07-13 16:09:34
+Reversed on: Sat, Jul, 13, 2019 04:10:21: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: ALEXANDER MICHAEL
+ Old Invoice Number: 0000630
+ Old Transaction ID: TRN9647358
+ Old Description: Tithe for May 2019, June 2019
+ Old Amount: 132500
+ Paid on: 2019-07-13 17:10:31
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000631
+ New Transaction ID: TRN9584343
+ New Description: Tithe for June 2019
+ New Amount: 132500.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000632
+Amount Paid: 217500
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 04:16:57: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: ALEXANDER MICHAEL
+Invoice Number: 0000632
+Transaction ID: TRN8410768
+Description: Tithe for May 2019, June 2019
+Amount: 217500.00
+Paid on: 2019-07-13 16:16:57
+Reversed on: Sat, Jul, 13, 2019 04:19:47: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: ALEXANDER MICHAEL
+ Old Invoice Number: 0000632
+ Old Transaction ID: TRN8410768
+ Old Description: Tithe for May 2019, June 2019
+ Old Amount: 217500
+ Paid on: 2019-07-13 17:19:57
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000633
+ New Transaction ID: TRN5695430
+ New Description: Tithe for May 2019, June 2019
+ New Amount: 211500.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000634
+Amount Paid: 1263305
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 04:22:34: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: ALEXANDER MICHAEL
+Invoice Number: 0000634
+Transaction ID: TRN3987219
+Description: Tithe for April 2019, May 2019, June 2019, January 2019, February 2019, March 2019
+Amount: 1263305.00
+Paid on: 2019-07-13 16:22:34
+Reversed on: Sat, Jul, 13, 2019 04:23:39: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: ALEXANDER MICHAEL
+ Old Invoice Number: 0000634
+ Old Transaction ID: TRN3987219
+ Old Description: Tithe for April 2019, May 2019, June 2019, January 2019, February 2019, March 2019
+ Old Amount: 1263305
+ Paid on: 2019-07-13 17:24:19
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+ New Invoice Number: 0000635
+ New Transaction ID: TRN4116959
+ New Description: Tithe for April 2019, May 2019, June 2019, January 2019, February 2019, March 2019
+ New Amount: 1263305.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from SHOGADE ADEWALE TOLULOPE and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000636
+Amount Paid: 118500
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 04:26:03: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+Invoice Number: 0000636
+Transaction ID: TRN4469868
+Description: Tithe for June 2019
+Amount: 118500.00
+Paid on: 2019-07-13 16:26:03
+Reversed on: Sat, Jul, 13, 2019 04:26:45: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+ Old Invoice Number: 0000636
+ Old Transaction ID: TRN4469868
+ Old Description: Tithe for June 2019
+ Old Amount: 118500
+ Paid on: 2019-07-13 17:26:59
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000637
+ New Transaction ID: TRN5557750
+ New Description: Tithe for June 2019
+ New Amount: 118500.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from SHOGADE ADEWALE TOLULOPE and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000638
+Amount Paid: 130500
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 04:36:23: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: ALEXANDER MICHAEL
+Invoice Number: 0000637
+Transaction ID: TRN5557750
+Description: Tithe for June 2019
+Amount: 118500.00
+Paid on: 2019-07-13 17:26:59
+Reversed on: Sat, Jul, 13, 2019 04:37:41: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+Invoice Number: 0000638
+Transaction ID: TRN6583184
+Description: Tithe for June 2019
+Amount: 130500.00
+Paid on: 2019-07-13 16:36:23
+Reversed on: Sat, Jul, 13, 2019 04:42:16: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+ Old Invoice Number: 0000638
+ Old Transaction ID: TRN6583184
+ Old Description: Tithe for June 2019
+ Old Amount: 130500
+ Paid on: 2019-07-13 17:42:35
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000639
+ New Transaction ID: TRN2750018
+ New Description: Tithe for June 2019
+ New Amount: 130500.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000640
+Amount Paid: 50000
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 04:46:23: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: ALEXANDER MICHAEL
+Invoice Number: 0000640
+Transaction ID: TRN2593990
+Description: Tithe for May 2019, June 2019
+Amount: 50000.00
+Paid on: 2019-07-13 16:46:23
+Reversed on: Sat, Jul, 13, 2019 04:48:23: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: ALEXANDER MICHAEL
+ Old Invoice Number: 0000640
+ Old Transaction ID: TRN2593990
+ Old Description: Tithe for May 2019, June 2019
+ Old Amount: 50000
+ Paid on: 2019-07-13 17:48:32
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: OGUNSEITAN ALEXANDER OLAKUNLE
+ New Invoice Number: 0000641
+ New Transaction ID: TRN5218940
+ New Description: Tithe for May 2019, June 2019
+ New Amount: 50000.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from SHOGADE ADEWALE TOLULOPE and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000642
+Amount Paid: 116500
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 04:50:25: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+Invoice Number: 0000642
+Transaction ID: TRN7808929
+Description: Tithe for June 2019
+Amount: 116500.00
+Paid on: 2019-07-13 16:50:25
+Reversed on: Sat, Jul, 13, 2019 04:51:10: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+ Old Invoice Number: 0000642
+ Old Transaction ID: TRN7808929
+ Old Description: Tithe for June 2019
+ Old Amount: 116500
+ Paid on: 2019-07-13 17:51:22
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000643
+ New Transaction ID: TRN6589340
+ New Description: Tithe for June 2019
+ New Amount: 116500.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from SHOGADE ADEWALE TOLULOPE and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000644
+Amount Paid: 223500
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 05:00:57: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+Invoice Number: 0000644
+Transaction ID: TRN2986739
+Description: Tithe for May 2019, June 2019
+Amount: 223500.00
+Paid on: 2019-07-13 17:00:57
+Reversed on: Sat, Jul, 13, 2019 05:01:48: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+ Old Invoice Number: 0000644
+ Old Transaction ID: TRN2986739
+ Old Description: Tithe for May 2019, June 2019
+ Old Amount: 223500
+ Paid on: 2019-07-13 18:01:57
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000645
+ New Transaction ID: TRN5757775
+ New Description: Tithe for May 2019, June 2019
+ New Amount: 223500.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from SHOGADE ADEWALE TOLULOPE and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000646
+Amount Paid: 247500
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 05:09:39: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+Invoice Number: 0000646
+Transaction ID: TRN3459764
+Description: Tithe for May 2019, June 2019
+Amount: 247500.00
+Paid on: 2019-07-13 17:09:39
+Reversed on: Sat, Jul, 13, 2019 05:10:27: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+ Old Invoice Number: 0000646
+ Old Transaction ID: TRN3459764
+ Old Description: Tithe for May 2019, June 2019
+ Old Amount: 247500
+ Paid on: 2019-07-13 18:10:36
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000647
+ New Transaction ID: TRN2235980
+ New Description: Tithe for May 2019, June 2019
+ New Amount: 247500.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from SHOGADE ADEWALE TOLULOPE and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000648
+Amount Paid: 222515
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 05:19:38: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+Invoice Number: 0000648
+Transaction ID: TRN5650203
+Description: Tithe for May 2019, June 2019
+Amount: 222515.00
+Paid on: 2019-07-13 17:19:38
+Reversed on: Sat, Jul, 13, 2019 05:21:31: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+ Old Invoice Number: 0000648
+ Old Transaction ID: TRN5650203
+ Old Description: Tithe for May 2019, June 2019
+ Old Amount: 222515
+ Paid on: 2019-07-13 18:22:22
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000649
+ New Transaction ID: TRN2417101
+ New Description: Tithe for May 2019, June 2019
+ New Amount: 222515.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from SHOGADE ADEWALE TOLULOPE and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000650
+Amount Paid: 221505
+Collected in: Cash
+Collected on: Sat, Jul, 13, 2019 05:28:29: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+Invoice Number: 0000650
+Transaction ID: TRN7745908
+Description: Tithe for May 2019, June 2019
+Amount: 221505.00
+Paid on: 2019-07-13 17:28:27
+Reversed on: Sat, Jul, 13, 2019 05:29:11: PM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+ Old Invoice Number: 0000650
+ Old Transaction ID: TRN7745908
+ Old Description: Tithe for May 2019, June 2019
+ Old Amount: 221505
+ Paid on: 2019-07-13 18:29:22
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000651
+ New Transaction ID: TRN9548975
+ New Description: Tithe for May 2019, June 2019
+ New Amount: 221505.00
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was INITIATED by cashier, Dave Michael(thecashier)
+The details are shown below:
+Tithe Payer Name: ALEXANDER MICHAEL
+Invoice Number: 0000652
+Transaction ID: TRN9437756
+Description: Tithe for June 2019
+Amount: 24000.00
+Paid on: 2019-07-16 11:48:03
+Reversed on: Tue, Jul, 16, 2019 11:56:30: AM
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by cashier, Dave Michael(thecashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: ALEXANDER MICHAEL
+ Old Invoice Number: 0000652
+ Old Transaction ID: TRN9437756
+ Old Description: Tithe for June 2019
+ Old Amount: 24000
+ Paid on: 2019-07-16 13:02:51
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: ALEXANDER MICHAEL
+ New Invoice Number: 0000653
+ New Transaction ID: TRN4920530
+ New Description: Tithe for June 2019
+ New Amount: 132000.00
+==========================================================================================================
+==========================================================================================================
+Tithe transaction REVERSAL was Approved by supercashr, Shogade Adewale(thesupercashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+ Old Invoice Number: 0000014
+ Old Transaction ID: TRN2870813
+ Old Description: Tithe for August 2019
+ Old Amount: 40000
+ Paid on: 2019-07-16 15:36:24
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+ New Invoice Number: 0000018
+ New Transaction ID: TRN2923490
+ New Description: Tithe for June 2019, July 2019
+ New Amount: 40000.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000654
+Amount Paid: 25000
+Collected in: Cash
+Collected on: Fri, Oct, 11, 2019 09:35:48: AM
+==========================================================================================================
+==========================================================================================================

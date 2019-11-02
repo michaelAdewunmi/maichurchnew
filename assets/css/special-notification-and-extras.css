@@ -1,0 +1,43 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.special_div {
+    background: #eee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.special_div .notification {
+    font-weight: 300;
+    max-width: 620px;
+    text-align: center;
+    color: red;
+}
+
+.notification.green {
+    color: green;
+}
+
+.special_btn {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    background: #053e67;
+    padding: 20px;
+    border-radius: 20px 0;
+    min-width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.special_btn.end {
+    background:red;
+}
