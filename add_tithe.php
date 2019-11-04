@@ -144,7 +144,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
         $data_to_store['Name_member'] = $_POST['memb_name'];
         $data_to_store['branch_name'] = $_POST['memb_branch'];
         $data_to_store['band_name'] = $_POST['memb_band'];
-        $data_to_store['Amount_Paid'] = $_POST['amountpaid'];
+        $data_to_store['Amount_Paid'] = $_POST['actual-tithe'];
         $data_to_store['Payment_Type'] = 'Tithe';
         $data_to_store['payment_mode'] = $_POST['paymode'];
         $data_to_store['payment_description'] = "Tithe for ". $_POST['duration'];
@@ -157,9 +157,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
 
 
         if ($last_id) {
-            echo $last_id;
-            compose_sms_to_send($data_to_store);
+            //echo $last_id;
+            //compose_sms_to_send($data_to_store);
             add_posted_tithe_info_to_log($data_to_store);
+
+            // $db = getDbInstance();
+            // $db->where("id", $last_id);
+            // $row2 = $db->get('tb_payment');
+
+            //$_SESSION['here'] = $row2;
+
+
             header('location: tithe_receipt.php?page=null&intv='.base64_encode($GeneratedReceiptNumber));
             exit();
         } else {
@@ -173,6 +181,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
 
 if(isset($_SESSION['no'])) {
     echo $_SESSION['no'];
+}if(isset($_SESSION['here'])) {
+    var_dump($_SESSION['here']);
 }
 
 
