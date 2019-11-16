@@ -139,6 +139,137 @@
                     ?>
             </select>
     </div>
+    <div class="form-group col-sm-3">
+        <label for="htown">Home Town</label>
+            <input  type="text" name="htown" value="<?php echo $edit ? $member['town'] : ''; ?>" placeholder="Home Town" class="form-control" id="htown" autocomplete="off">
+    </div>
+    <div class="form-group col-sm-4">
+        <label for="address">Residential Address</label>
+          <textarea name="address" placeholder="Residential Address" class="form-control" id="address" required><?php echo ($edit)? $member['home_addr'] : ''; ?></textarea>
+    </div>
+    <div class="form-group col-sm-4">
+        <label for="offaddress">Office Address</label>
+          <textarea name="offaddress" placeholder="Office Address" class="form-control" id="offaddress"><?php echo ($edit)? $member['off_addr'] : ''; ?></textarea>
+    </div>
+    <div class="form-group col-sm-2">
+        <label>Blood Group</label>
+           <?php $opt_arr = array("Blood Group A", "Blood Group B", "Blood Group O", "Blood Group AB");
+                            ?>
+            <select name="blood_grp" id="blood_grp" class="form-control selectpicker">
+                <option value=" " >Select Blood Group</option>
+                <?php
+                foreach ($opt_arr as $opt) {
+                    if ($edit && $opt == $member['blood_grp']) {
+                        $sel = "selected";
+                    } else {
+                        $sel = "";
+                    }
+                    echo '<option value="'.$opt.'"' . $sel . '>' . $opt . '</option>';
+                }
+
+                ?>
+            </select>
+    </div>
+    <div class="form-group col-sm-2">
+        <label>Marital Status</label>
+           <?php $opt_arr = array("Single", "Married","Separated","Divorced", "Widow", "Widower");
+                            ?>
+            <select name="marital_status" id="marital_status" class="form-control selectpicker" required>
+                <option value=" " >Select Marital Status</option>
+                <?php
+                foreach ($opt_arr as $opt) {
+                    if ($edit && $opt == $member['marital_status']) {
+                        $sel = "selected";
+                    } else {
+                        $sel = "";
+                    }
+                    echo '<option value="'.$opt.'"' . $sel . '>' . $opt . '</option>';
+                }
+
+                ?>
+            </select>
+    </div>
+    <div class="form-group col-sm-3">
+        <label for="l_name">Name of Spouse</label>
+        <input type="text" name="spousename" autocomplete="off" value="<?php echo $edit ? $member['name_spouse'] : ''; ?>" placeholder="Spouse Name" class="form-control" required="required" id="spousename">
+    </div>
+    <div class="form-group col-sm-2">
+        <label for="l_name">Number of Children</label>
+        <input type="number" name="childrennumber" autocomplete="off" value="<?php echo $edit ? $member['no_children'] : ''; ?>" placeholder="Number of Children" class="form-control" required="required" id="childrennumber">
+    </div>
+    <div class="form-group col-sm-3">
+        <label>Qualification</label>
+           <?php $db = getDbInstance();
+
+$select = "QualificationName";
+$db->orderBy('QualificationName','asc');
+$opt_arr = $db->get('qualification_tbl', null, $select);
+                            ?>
+            <select name="quali" id="quali" class="form-control selectpicker" required>
+                <option value=" " >Select Qualification</option>
+                <?php
+                foreach ($opt_arr as $opt) {
+                    if ($edit && $opt['QualificationName'] == $member['degree_level']) {
+                        $sel = "selected";
+                    } else {
+                        $sel = "";
+                    }
+                    echo '<option value="'.$opt['QualificationName'].'"' . $sel . '>' . $opt['QualificationName'] . '</option>';
+                }
+
+                ?>
+            </select>
+    </div>
+    <div class="form-group col-sm-3">
+        <label>Professional Qualification</label>
+           <?php $db = getDbInstance();
+
+$select = "InstituteName";
+$db->orderBy('InstituteName','asc');
+$opt_arr = $db->get('professionalasso', null, $select);
+                            ?>
+            <select name="proqual" id="proqual" class="form-control selectpicker" required>
+                <option value=" " >Select Qualification</option>
+                <?php
+                foreach ($opt_arr as $opt) {
+                    if ($edit && $opt['InstituteName'] == $member['prof_qual']) {
+                        $sel = "selected";
+                    } else {
+                        $sel = "";
+                    }
+                    echo '<option value="'.$opt['InstituteName'].'"' . $sel . '>' . $opt['InstituteName'] . '</option>';
+                }
+
+                ?>
+            </select>
+    </div>
+    <div class="form-group col-sm-3">
+        <label>Course of Study</label>
+           <?php $db = getDbInstance();
+
+$select = "CourseName";
+$db->orderBy('CourseName','asc');
+$opt_arr = $db->get('courses_tbl', null, $select);
+                            ?>
+            <select name="coursestudied" id="coursestudied" class="form-control selectpicker" required>
+                <option value=" " >Select Course Studied</option>
+                <?php
+                foreach ($opt_arr as $opt) {
+                    if ($edit && $opt['CourseName'] == $member['course_study']) {
+                        $sel = "selected";
+                    } else {
+                        $sel = "";
+                    }
+                    echo '<option value="'.$opt['CourseName'].'"' . $sel . '>' . $opt['CourseName'] . '</option>';
+                }
+
+                ?>
+            </select>
+    </div>
+    <div class="form-group col-sm-4">
+        <label for="phone">Occupation</label>
+            <input name="occupation" value="<?php echo $edit ? $member['occupation'] : ''; ?>" placeholder="Occupation" class="form-control"  type="text" id="occupation" autocomplete="off">
+    </div>
     <div class="form-group col-sm-2">
         <label>Band</label>
            <?php $db = getDbInstance();
@@ -161,7 +292,7 @@
 
                 ?>
             </select>
-    </div> 
+    </div>
     <div class="form-group col-sm-2">
         <label>Post in Band</label>
         <?php $db = getDbInstance();

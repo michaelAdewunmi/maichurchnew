@@ -112,7 +112,21 @@
                                     </li>
                                     </ul>
                                 </li>
+                                
                                 <li>
+                                    <a href="#"><i class="fa fa-money"></i> Income<span class="fa arrow"></span></a>
+                                    <ul class="nav nav-second-level">
+                                        <li>
+                                            <a href="#"><i class="fa fa-credit-card"></i> Band Savings</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-undo"></i> Evangelism</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-gavel"></i> Tithe of Tithe</a>
+                                        </li>
+
+                                        <li>
                                     <a href="#"><i class="fa fa-money"></i> Tithe<span class="fa arrow"></span></a>
                                     <ul class="nav nav-second-level">
                                         <li>
@@ -139,6 +153,12 @@
                                         <li>
                                             <a href="printer_setup.php"><i class="fa fa-wrench"></i> Setup Printer</a>
                                         </li>
+                                    </ul>
+                                </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-eye"></i> Other Incomes</a>
+                                        </li>
+                                        
                                     </ul>
                                 </li>
                                 <?php
