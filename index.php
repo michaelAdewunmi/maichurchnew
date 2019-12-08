@@ -10,6 +10,7 @@ $db = getDbInstance();
 $numMembers = $db->getValue("members", "count(*)");
 
 include_once('includes/header.php');
+var_dump($_SESSION);
 ?>
 <div id="page-wrapper">
     <div class="row">

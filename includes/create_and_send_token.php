@@ -113,7 +113,8 @@ if (isset($_POST['user-token']) && isset($_POST['submit']) && trim($_POST['user-
         if ($validity_period<120) {
             $_SESSION['token_val_info'] = "Yeah! Token is Valid";
             $_SESSION['verified'] = true;
-            header("Location: index.php");
+            //echo BASE_PATH;
+            include_once BASE_PATH."/day_start.php";
         } else {
             $_SESSION['token_val_info'] = "Sorry! Token Expired. Please Generate a different Token!";
             $_SESSION['token_btn'] = "show";
@@ -125,4 +126,34 @@ if (isset($_POST['user-token']) && isset($_POST['submit']) && trim($_POST['user-
     }
 }
 
+function setSessionAndGoToIndexPage($day_ended=false) {
+    $db = getDbInstance();
+    $db->where("day", date('Y-m-d'));
+    $db->where("day_started", true);
+    $db->where("day_started_for", $_SESSION['username']);
+    $row = $db->get('start_and_end_day_controller');
+    $_SESSION['present_day_ongoing'] = !$day_ended ? true : "true(But Ended)";
+    $_SESSION['day_id'] = !$day_ended ? $row[0]['day_id'] : $row[0]['day_id']."(Ended)";
+    $day_ended==false ? header("Location: index.php") : header("Location: index.php?dayended=true");
+}
+
+function saveInfoToStartDayController($the_day_id) {
+    $db = getDbInstance();
+    $data = Array (
+        "day"               => date('Y-m-d'),
+        "day_started"       => true,
+        "day_id"            => $the_day_id,
+        "time_day_started"  => date('Y-m-d H:i:s'),
+        "day_started_for"   => $_SESSION["username"],
+        "day_ended"         => "NOT YET",
+        "day_ended_for"     => "NOT ENDED YET",
+        "time_day_ended"    => "NULL",
+    );
+    $result = $db->insert("start_and_end_day_controller", $data);
+    if ($result) {
+        return $result;
+    } else {
+        return null;
+    }
+}
 ?>

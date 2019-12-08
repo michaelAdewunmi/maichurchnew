@@ -34,17 +34,16 @@
 
     <body>
         <div id="wrapper">
-        <?php
-        if (isset($_SESSION['admin_type']) && ( $_SESSION['admin_type'] == "supercashr"
-            || $_SESSION['admin_type'] == "super" )
-        ) { ?>
-                <!-- The div below will only show when the day is to be ended. It is hidden by default and ONLY used on supercashier's page-->
+            <!-- The div below will only show when the day is to be ended. It is hidden by default -->
             <div id="end-the-day-notification">
-                <p class="end-day-info">This action is Irreversible! Are you sure you want to end the day?</p>
-                <div class="do-not-end-day special_btn">No! Continue the Day</div>
-                <a class="special_btn end" href="day_end.php">Yes! End the Day</a>
+                <day id="notification-wrapper">
+                    <p class="end-day-info">This action is Irreversible! Are you sure you want to end the day?</p>
+                    <div id="btns-holder">
+                        <div class="do-not-end-day special_btn">Cancel</div>
+                        <a class="special_btn end" href="day_end.php">End the Day</a>
+                    </div>
+                </div>
             </div>
-            <?php } //endif ?>
 
             <!-- Navigation -->
             <?php if (isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] == true ): ?>
@@ -67,7 +66,7 @@
         </div>
 
                         </a>
-                       
+
                     </div>
                     <!-- /.navbar-header -->
 
@@ -112,7 +111,15 @@
                                     </li>
                                     </ul>
                                 </li>
-                                
+                                <?php
+                                // If Day has ended, hide the income navigations
+                                $db = getDbInstance();
+                                $db->where("day", date('Y-m-d'));
+                                $db->where("day_ended", true);
+                                $db->where("day_ended_for", $_SESSION["username"]);
+                                $row = $db->get('start_and_end_day_controller');
+                                if ($db->count ===0) {
+                                ?>
                                 <li>
                                     <a href="#"><i class="fa fa-money"></i> Income<span class="fa arrow"></span></a>
                                     <ul class="nav nav-second-level">
@@ -127,45 +134,42 @@
                                         </li>
 
                                         <li>
-                                    <a href="#"><i class="fa fa-money"></i> Tithe<span class="fa arrow"></span></a>
-                                    <ul class="nav nav-second-level">
-                                        <li>
-                                            <a href="add_tithe.php"><i class="fa fa-credit-card"></i> Post Tithe</a>
+                                            <a href="#"><i class="fa fa-money"></i> Tithe<span class="fa arrow"></span></a>
+                                            <ul class="nav nav-second-level">
+                                                <li>
+                                                    <a href="add_tithe.php"><i class="fa fa-credit-card"></i> Post Tithe</a>
+                                                </li>
+                                                <li>
+                                                    <a href="reverse_tithe.php"><i class="fa fa-undo"></i> Tithe Reversal</a>
+                                                </li>
+                                                <li>
+                                                    <a href="reversal_transact_grid.php"><i class="fa fa-gavel"></i> Approve Tithe Reversal</a>
+                                                </li>
+                                                <li>
+                                                    <a href="daily_transact_grid.php"><i class="fa fa-eye"></i> View Transactions</a>
+                                                </li>
+                                                <li>
+                                                    <a href="reprint_tithe.php"><i class="fa fa-search"></i> Search Receipt(s)</a>
+                                                </li>
+                                                <li>
+                                                    <a href="assign_receipt_book.php"><i class="fa fa-exchange"></i> Assign Receipt(s)</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa fa-line-chart"></i> Reports </a>
+                                                </li>
+                                                <li>
+                                                    <a href="printer_setup.php"><i class="fa fa-wrench"></i> Setup Printer</a>
+                                                </li>
+                                            </ul>
                                         </li>
-                                        <li>
-                                            <a href="reverse_tithe.php"><i class="fa fa-undo"></i> Tithe Reversal</a>
-                                        </li>
-                                        <li>
-                                            <a href="reversal_transact_grid.php"><i class="fa fa-gavel"></i> Approve Tithe Reversal</a>
-                                        </li>
-                                        <li>
-                                            <a href="daily_transact_grid.php"><i class="fa fa-eye"></i> View Transactions</a>
-                                        </li>
-                                        <li>
-                                            <a href="reprint_tithe.php"><i class="fa fa-search"></i> Search Receipt(s)</a>
-                                        </li>
-                                        <li>
-                                            <a href="assign_receipt_book.php"><i class="fa fa-exchange"></i> Assign Receipt(s)</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-line-chart"></i> Reports </a>
-                                        </li>
-                                        <li>
-                                            <a href="printer_setup.php"><i class="fa fa-wrench"></i> Setup Printer</a>
-                                        </li>
-                                    </ul>
-                                </li>
                                         <li>
                                             <a href="#"><i class="fa fa-eye"></i> Other Incomes</a>
                                         </li>
-                                        
                                     </ul>
                                 </li>
                                 <?php
-                                if ($_SESSION['admin_type'] === 'super'
-                                    || $_SESSION['admin_type'] === 'supercashr'
-                                ) {
-                                    ?>
+                                    } //End of day closing if statement
+                                ?>
                                 <li>
                                     <a href="admin_users.php"><i class="fa fa-users fa-fw"></i> Users</a>
                                 </li>
@@ -174,9 +178,9 @@
                                         <i class="fa fa-hourglass-end"></i> End the Day
                                     </p>
                                 </li>
-                                    <?php
-                                }//EndIf
-                                ?>
+                                <li>
+                                    <a href="cash_analysis.php"><i class="fa fa-money"></i> End of Day Cash Analysis</a>
+                                </li>
                             </ul>
                         </div>
                         <!-- /.sidebar-collapse -->

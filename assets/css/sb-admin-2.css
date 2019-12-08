@@ -291,11 +291,24 @@ label.error{
   max-width: 370px;
 }
 
+#den-summary.is_analysis_page {
+  width: 90%;
+  max-width: 90%;
+}
+
 
 .table-type {
   padding: 10px;
   border: 1px solid #c7c7c7;
   font-weight: 800;
+}
+
+.is_analysis_page .table-type {
+  font-weight: 400;
+}
+
+.is_analysis_page .table-type.heading {
+  height: 82px;
 }
 
 .table-type.body {
@@ -325,51 +338,103 @@ label.error{
   margin-bottom: 60px;
 }
 
+#final_summary {
+  padding: 30px 0;
+  font-weight: 800;
+}
+
+.cash_final_summary {
+  width: 200px;
+  display: inline-block;
+  font-style: italic;
+}
 
 /* Styles for the div to indicate if the day wants to be ended truly */
 #end-the-day-notification {
-	position: absolute;
+	position: fixed;
   height: 100vh;
   top: 0;
   right: 0;
   bottom: auto;
   left: 0;
-  background: rgba(1, 39, 66, 0.9);
-  z-index: 999999999999999999999;
+  background: rgba(0, 0, 0, 0.6);
+  z-index:-999999999;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   color: white;
-  /* display: none; */
-  transform: scale(0);
-  transition: all .2s ease-in-out;
+  opacity: 0;
 }
 
 .end-day-info {
-  max-width: 480px;
   align-self: center;
-  text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+  font-style: italic;
+  max-width: 280px;
+  margin: 30px auto 10px;
+}
+
+#btns-holder {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
 
 
 #end-the-day-notification .special_btn {
   text-decoration: none;
-  font-size: 22px;
-  font-weight: 700;
-  color: #fff;
-  background: #09a700;
-  padding: 20px;
-  border-radius: 20px 0;
-  min-width: 200px;
-  max-width: 400px;
-  text-align: center;
-  margin: 20px auto;
-  cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background: #0fc705;
+    padding: 15px 30px;
+    border-radius: 5px;
+    min-width: 100px;
+    max-width: 300px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
 }
 
 #end-the-day-notification .special_btn.end {
   background:red;
 }
 
+#notification-wrapper {
+  width: 90%;
+  max-width: 450px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  color: #000;
+  height: 220px;
+  margin-top: 30px;
+  position: relative;
+  top: -100px;
+  transition: all .3s ease-out;
+  opacity: 0;
+}
+
+
+/* Miscellaneous Stylings */
+.small_header {
+  font-size: 18px;
+  font-style: italic;
+  color: #6c6c6c;
+  margin-left: 15px;
+  line-height: 1.6;
+}
+
+#cash_analysis_wrapper {
+  padding: 0 15px;
+}
+
+.cash_analysis_header {
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
