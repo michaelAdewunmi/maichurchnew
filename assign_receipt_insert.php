@@ -15,7 +15,7 @@ $dat_to_store['AssignedBy'] = $_SESSION['username'];
 
 
 $last_id = $db->insert('receiptnumberpool', $dat_to_store);
-$db->rawQuery("CALL ReceiptSetCheck('$_POST[cashier]','$_POST[receiptnumb]')");
+
 if($last_id)
 {
     $_SESSION['success'] = "Receipt Information added successfully!";

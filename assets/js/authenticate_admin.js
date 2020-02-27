@@ -36,13 +36,29 @@ class authenticateAdmin {
 
     openPageModal() {
         $("#end-the-day-notification").css({
-            'transform' : 'scale(1)'
+            'z-index': '999999999',
+            'opacity': 1
         })
+
+        setTimeout(function() {
+            $("#notification-wrapper").css({
+                'top': 0,
+                'opacity': 1
+            })
+        }, 200)
     }
 
     closeModal() {
-        $("#end-the-day-notification").css({
-            'transform' : 'scale(0)'
+        setTimeout(function() {
+            $("#end-the-day-notification").css({
+                'z-index': '-9999999999999999999999999999999999999',
+                'opacity': 0
+            });
+        }, 200)
+
+        $("#notification-wrapper").css({
+            'top': -100,
+            'opacity': 0
         })
     }
 
@@ -55,7 +71,7 @@ class authenticateAdmin {
         setInterval(() => {
             //console.log(credentials);
             $.ajax({
-                url: `/authenticate.php`,
+                url: `authenticate.php`,
                 type: 'POST',
                 data: credentials,
             })

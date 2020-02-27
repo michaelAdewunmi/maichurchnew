@@ -1,7 +1,7 @@
 <?php
     $key=$_GET['key'];
     $array = array();
-    $con=mysqli_connect("localhost","root","root@2017","admincore");
+    $con=mysqli_connect("localhost","DevUser","root@2020","admincore");
     $query=mysqli_query($con, "select * from tb_personinfo where (surname LIKE '%{$key}%' or othernames LIKE '%{$key}%' or memberno LIKE '%{$key}%')");
     while($row=mysqli_fetch_assoc($query))
     {

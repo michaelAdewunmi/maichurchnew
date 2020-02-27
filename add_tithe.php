@@ -149,6 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
         $data_to_store['payment_mode'] = $_POST['paymode'];
         $data_to_store['payment_description'] = "Tithe for ". $_POST['duration'];
         $data_to_store['date_received'] = date('Y-m-d H:i:s');
+        $data_to_store['date_received_no_time'] = date('Y-m-d');
         $data_to_store['recusername'] = $_SESSION['username']; //<!--assign the user in the post-->
 
         $db = getDbInstance();

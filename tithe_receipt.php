@@ -34,8 +34,24 @@ $db = getDbInstance();
         $Cashier = $row[0]['recusername'];
 
 for($i=1;$i<=2;$i++) {
+$printer_user= $_SESSION['username'];
+
+    $getprinterDB = getDbInstance();
+    
+          $getprinterDB->where("AssignedTo",$printer_user);
+           
+        $get_printer_info = $getprinterDB->get('printer_assign');
+        if($getprinterDB->count >=1){
+            
+            $printer_model_name = $get_printer_info[0]['PrinterName'];
+           
+        }
+        else{
+            echo  $getprinterDB->getLastError();
+        }
 /* Fill in your own connector here */
-$connector = new WindowsPrintConnector("XP-80C");
+
+$connector = new WindowsPrintConnector($printer_model_name);
 $profile = StarCapabilityProfile::getInstance();
 
 /* Information for the receipt */

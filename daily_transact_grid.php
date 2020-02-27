@@ -28,7 +28,7 @@ if (!$order_by) {
 
 //Get DB instance. i.e instance of MYSQLiDB Library
 $db = getDbInstance();
-$select = array('invoicenum', 'memid', 'Name_member', 'sex', 'band_name','Amount_Paid','payment_mode');
+$select = array('invoicenum', 'memid', 'Name_member', 'sex', 'band_name','Amount_Paid','payment_mode','date_received');
 
 //Start building query according to input parameters.
 // If search string
@@ -123,7 +123,7 @@ include_once 'includes/header.php';
                 <th>Payee Band</th>
                 <th>Amount Paid</th>
                 <th>Payment Mode</th>
-                <th>Actions</th>
+                <th>Transaction Date</th>
             </tr>
         </thead>
         <tbody>
@@ -142,6 +142,7 @@ include_once 'includes/header.php';
 	                <td><?php echo htmlspecialchars($row['band_name']) ?></td>
 	                <td><?php echo htmlspecialchars($row['Amount_Paid']) ?> </td>
                     <td><?php echo htmlspecialchars($row['payment_mode']) ?> </td>
+                    <td><?php echo htmlspecialchars($row['date_received']) ?> </td>
 	                <td>
 					
 				</tr>

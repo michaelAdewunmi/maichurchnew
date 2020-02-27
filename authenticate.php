@@ -126,24 +126,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !is_ajax()) {
 		header('Location:login.php');
 	}
 
-
-	if ($_SESSION['admin_type'] !== 'super' && $_SESSION['admin_type'] !== 'supercashr'
-	) {
-		$db = getDbInstance();
-		$db->where("day", date('Y-m-d'));
-		$db->where("day_ended", date(true));
-		$row = $db->get('start_and_end_day_controller');
-		if ($db->count >=1) {
-			echo $db->count;
-			session_destroy();
-			if(isset($_COOKIE['series_id']) && isset($_COOKIE['remember_token'])){
-				clearAuthCookie();
-			}
-			header('Location:login.php');
-			exit;
-		}
-	}
-
 } else {
     die('Method Not allowed');
 }

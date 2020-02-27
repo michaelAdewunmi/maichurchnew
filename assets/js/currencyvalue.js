@@ -57,14 +57,6 @@ class DenominationsTransformation {
         } else {
             document.getElementById(`${id}_summary`).innerHTML = 0;
         }
-        //}
-        // }else{
-        //     if(val!=='') {
-        //         document.getElementById(`${id}_summary`).innerHTML = document.getElementById(`${id}`).value;
-        //     } else {
-        //         document.getElementById(`${id}_summary`).innerHTML = 0;
-        //     }
-        // }
     }
 
     sum_up_values(isBal=false) {
@@ -106,17 +98,24 @@ class DenominationsTransformation {
         document.getElementById('balance-given').value = balanceGiven;
     }
 
-    focusAmountInput(e) {
+    focusAmountInput(e, parentId=null) {
         const  totalDiv = e.parentNode.lastElementChild;
         const quantityDiv = e.parentNode.lastElementChild.previousElementSibling;
+        const quantityDivId = quantityDiv.getAttribute("id");
         if(e.checked===true) {
             quantityDiv.disabled = false;
             totalDiv.readonly = false;
+            this.sum_up_values();
+            this.sum_up_values(true);
+            this.PasteDenInSummary(quantityDivId);
         } else {
             quantityDiv.value="";
             quantityDiv.disabled = true;
             totalDiv.value=""
             totalDiv.disabled = true;
+            this.sum_up_values();
+            this.sum_up_values(true);
+            this.PasteDenInSummary(quantityDivId);
         }
     }
 }

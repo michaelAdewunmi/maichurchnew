@@ -5,7 +5,7 @@ require_once './config/config.php';
 $token = bin2hex(openssl_random_pseudo_bytes(16));
 
 //If User has already logged in, redirect to dashboard page.
-if (isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] === TRUE) {
+if (isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] === TRUE && isset($_SESSION['username']) ) {
     header('Location:verify_user_with_token.php');
 }
 
@@ -35,12 +35,14 @@ if (isset($_COOKIE['series_id']) && isset($_COOKIE['remember_token'])) {
                 clearAuthCookie();
                 header('Location:login.php');
                 exit;
+            } else {
+                $_SESSION['user_logged_in'] = TRUE;
+                $_SESSION['admin_type'] = $row[0]['admin_type'];
+                $_SESSION['username'] = $row[0]['user_name'];
+                $_SESSION['id']	= $row[0]['id'];
+                header('Location:verify_user_with_token.php');
+                exit;
             }
-
-            $_SESSION['user_logged_in'] = TRUE;
-            $_SESSION['admin_type'] = $row[0]['admin_type'];
-            header('Location:verify_user_with_token.php');
-            exit;
         } else {
             clearAuthCookie();
             header('Location:login.php');
