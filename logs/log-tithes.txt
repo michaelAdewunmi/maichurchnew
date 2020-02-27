@@ -817,3 +817,64 @@ Collected in: Cash
 Collected on: Mon, Nov, 04, 2019 07:40:45: PM
 ==========================================================================================================
 ==========================================================================================================
+Tithe transaction REVERSAL was Approved by supercashr, Shogade Adewale(thesupercashier)
+The details are shown below:
+*****************
+ OLD DETAILS
+*****************
+ Old Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+ Old Invoice Number: 0000007
+ Old Transaction ID: TRN2285457
+ Old Description: Tithe for July 2019
+ Old Amount: 30000
+ Paid on: 2019-11-16 21:58:44
+*****************
+ NEW DETAILS
+*****************
+ New Tithe Payer Name: SHOGADE ADEWALE TOLULOPE
+ New Invoice Number: 0000022
+ New Transaction ID: TRN8939195
+ New Description: Tithe for July 2019
+ New Amount: 25000.00
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by supercashr, Shogade Adewale(thesupercashier)
+The details are shown below:
+Invoice Number: 0000025
+Amount Paid: 1999235
+Collected in: Cash
+Collected on: Sat, Nov, 16, 2019 09:03:25: PM
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000660
+Amount Paid: 149625
+Collected in: Cash
+Collected on: Sun, Dec, 08, 2019 08:15:01: AM
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000661
+Amount Paid: 212125
+Collected in: Cash
+Collected on: Sun, Dec, 08, 2019 08:40:02: AM
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000662
+Amount Paid: 222235
+Collected in: Cash
+Collected on: Sun, Dec, 08, 2019 08:42:21: AM
+==========================================================================================================
+==========================================================================================================
+Tithe was COLLECTED from ALEXANDER MICHAEL and posted by cashier, Dave Michael(thecashier)
+The details are shown below:
+Invoice Number: 0000663
+Amount Paid: 327165
+Collected in: Cash
+Collected on: Sun, Dec, 08, 2019 08:43:35: AM
+==========================================================================================================
+==========================================================================================================

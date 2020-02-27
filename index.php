@@ -10,7 +10,7 @@ require_once 'includes/auth_validate.php';
 
 
 include_once('includes/header.php');
-//var_dump($_SESSION);
+
 ?>
 <div id="page-wrapper">
     <div class="row">
