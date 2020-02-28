@@ -30,7 +30,7 @@ function select_mode()
             document.getElementById('chequemode').style.display="none";
             document.getElementById('directmode').style.display="block";
             }
-      else if(document.getElementById('paymode').value=="Card")
+      else if(document.getElementById('paymode').value=="POS")
 		{
                   
             document.getElementById('amountpaid').readOnly = false;
