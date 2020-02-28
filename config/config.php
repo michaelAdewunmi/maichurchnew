@@ -17,8 +17,8 @@ require_once BASE_PATH . '/helpers/helpers.php';
  */
 
 define('DB_HOST', "localhost");
-define('DB_USER', "root");
-define('DB_PASSWORD', "root@2017");
+define('DB_USER', "DevUser");
+define('DB_PASSWORD', "root@2020");
 define('DB_NAME', "admincore");
 
 /**

@@ -71,7 +71,7 @@ class authenticateAdmin {
         setInterval(() => {
             //console.log(credentials);
             $.ajax({
-                url: `/authenticate.php`,
+                url: `authenticate.php`,
                 type: 'POST',
                 data: credentials,
             })

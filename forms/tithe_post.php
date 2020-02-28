@@ -66,6 +66,7 @@
         name="paymode" onchange="select_mode(this.value)">
         <option></option>
         <option>POS</option>
+        <option>Cash</option>
         <option>Card</option>
         <option>Cheque</option>
         <option>Direct Lodgement</option>
