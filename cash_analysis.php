@@ -33,9 +33,9 @@ $row = $db->get('start_and_end_day_controller');
                         "</h2>";
                 } else {
                     $den_starting_the_day = array (
-                        'Dem1000' => '20', 'Dem500' => '20', 'Dem200' => '20',
-                        'Dem100' => '20', 'Dem50' => '20', 'Dem20' => '20',
-                        'Dem10' => '20', 'Dem5' => '20'
+                        'Dem1000' => '0', 'Dem500' => '0', 'Dem200' => '0',
+                        'Dem100' => '0', 'Dem50' => '0', 'Dem20' => '0',
+                        'Dem10' => '0', 'Dem5' => '0'
                     );
                     $den_collected = array ();
                     $den_given = array();

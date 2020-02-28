@@ -180,11 +180,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
     }
 }
 
-if(isset($_SESSION['no'])) {
-    echo $_SESSION['no'];
-}if(isset($_SESSION['here'])) {
-    var_dump($_SESSION['here']);
-}
+// if(isset($_SESSION['no'])) {
+//     echo $_SESSION['no'];
+// }if(isset($_SESSION['here'])) {
+//     var_dump($_SESSION['here']);
+// }
 
 
 
